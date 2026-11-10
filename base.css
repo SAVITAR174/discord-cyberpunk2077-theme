@@ -1646,3 +1646,80 @@ body,
     border-radius: 0 !important;
     background: var(--neon-red-color) !important;
   }
+
+/* ===============
+    FULL BORDERS (statt nur Linie unten)
+    ===============
+*/
+
+/* Tabs: "Online" (Freundesliste) + ausgewählter Tab in den Einstellungen */
+.topPill_6zZYhF .selected_6zZYhF,
+.sidebar_cR4ic2 .item_xyJHva.active_xyJHva,
+.sidebar_cR4ic2 .item_8qMUr2.active_8qMUr2 {
+  border: 1px solid var(--neon-yellow-color) !important;
+  border-radius: 6px;
+}
+
+/* "Finde oder starte ein Gespräch" */
+.base_pog62O .sidebar_pog62O .searchBar_u88IQl button {
+  border: 1px solid var(--neon-blue-color) !important;
+  border-radius: 6px;
+}
+
+/* Nachrichten-Eingabefeld */
+.channelTextArea_z_gUBg,
+.scrollableContainer_2x8-Qn {
+  border: 1px solid var(--neon-red-color) !important;
+}
+
+/* Suchfeld in der Freundesliste */
+.container_zrUwGA .peopleColumn_zrUwGA .inner__999f6 {
+  border: 1px solid var(--neon-blue-color) !important;
+  border-radius: 6px;
+}
+
+/* Quickswitcher (Strg+K) */
+.quickswitcher_a1DYes .input_a1DYes {
+  border: 1px solid var(--neon-red-color) !important;
+}
+
+/* Emoji-/GIF-/Sticker-Picker: Suchleisten und Header */
+.contentWrapper_58b0l2 .header_6c9R7U .inner_fea832,
+.contentWrapper_58b0l2 .container_fea832 .inner_fea832,
+.contentWrapper_58b0l2 .header_rfDq2B .inner__999f6,
+.wrapper_-sZhZn .emojiPicker_-sZhZn .inner_fea832 {
+  border: 1px solid var(--neon-blue-color) !important;
+}
+
+.contentWrapper_58b0l2 .wrapper_6AvvhR,
+.wrapper_-sZhZn .emojiPicker_-sZhZn .header_6c9R7U {
+  border: 1px solid var(--light-neon-red-color) !important;
+}
+
+.contentWrapper_58b0l2 .inspector_1bDrGE,
+.emojiPicker_-sZhZn .inspector_1bDrGE {
+  border: 1px solid var(--neon-green-color) !important;
+}
+
+/* Soundboard-Suche */
+.picker_1lN7Eh .container_fea832 {
+  border: 1px solid var(--neon-blue-color) !important;
+}
+
+/* Profil-Popup */
+:not(.custom-user-profile-theme) > .inner_P1YEjQ .roleTag_xL50-d {
+  border: 1px solid var(--neon-blue-color) !important;
+}
+
+.layer_VVADeK .outer_P1YEjQ:not(.custom-user-profile-theme) {
+  border: 2px solid var(--neon-red-color) !important;
+}
+
+.layer_VVADeK .outer_P1YEjQ:not(.custom-user-profile-theme) .connectedAccountsColumn_XvCt_s {
+  border: 1px solid var(--neon-blue-color) !important;
+}
+
+/* BetterDiscord Addon-Karten */
+.container_NdjzJd .bd-addon-card {
+  border: 1px solid var(--neon-blue-color) !important;
+}
